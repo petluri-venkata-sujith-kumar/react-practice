@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    /* background-color: #607274 ; */
+    
+}
+#container{
+    display: flex;
+    /* border: 2px solid; */
+    /* width: 80%; */
+    margin: auto;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+    background-color: #FAEED1;
+    
+}
+#card{
+    /* border: 2px solid; */
+    height: 20rem;
+    margin: 30px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 83px 0 rgba(6,6,6,0.1); */
+    background-color: #fff;
+    color: rgb(98, 98, 230);
+}
+#card img{
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    padding: 10px;
+}
+.phno , .skills{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#card button{
+    margin: 8px;
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FAEED1;
+    box-shadow: 0 5px 83px 0 rgba(6,6,6,0.1);
+}

@@ -1,0 +1,20 @@
+.div{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    color: black;
+    margin: 20px;
+}
+p{
+    display: none;
+}
+
+.block{
+    display: block;
+    color: blue;
+}
+
+.span{
+    display: block;
+    color: red;
+}

@@ -1,0 +1,39 @@
+#top{
+    color: #032958;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+#suji{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(179, 172, 172);
+    line-height: 35px;
+}
+.head{
+  font-size: 16px;
+  color: #032958;
+  
+}
+#name,#phn,#email{
+    width: 85%;
+    height: 45px;
+    border: 1px solid  rgb(179, 172, 172) ;
+   border-radius: 5px;
+   padding: 10px;
+}
+button{
+    border: 1px solid  rgb(179, 172, 172) ;
+   border-radius: 5px;
+   padding: 8px;
+   width: 20%;
+   height: 7%;
+   margin-left: 65%;
+   margin-top: 18%;
+   color: white;
+   background-color:#032958;
+}
+input::-webkit-input-placeholder { 
+    font-weight: 600;  
+    color: rgb(179, 172, 172);
+} 

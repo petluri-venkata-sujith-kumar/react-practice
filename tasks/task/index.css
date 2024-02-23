@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url("./form.css");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eff5ff;
+    font-size: 62.5%;
+    font-family: "Ubuntu", sans-serif;
+}
+#card{
+    /* border: 2px solid; */
+    border-radius: 10px;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    background-color: #fff;
+    display: flex;
+}
+#left{
+    /* border: 2px solid; */
+    width: 280px;
+    height: 570px;
+    background-image: url(./asserts/bg-sidebar-desktop\ \(1\).png);
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+#right{
+    /* border: 2px solid; */
+    width: 550px;
+    margin: 15px;
+    padding-left: 60px;
+}
+#ultag{
+    padding-top: 22px;
+    padding-left: 18px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    margin: 25px;
+    color: #fff;
+}
+.num{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#one{
+    background-color: #bce2ff;
+    color: #032957;
+}
+.step{
+    font-size: 11px;
+    margin-bottom: 5px;
+    color: #c3c5c8;
+}
+.detail,.num{
+    font-weight: 500;
+}

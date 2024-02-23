@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="card">
+      <div id="left">
+        <div id="left_info">
+            <ul id="ultag">
+                <li class="list">
+                    <div class="num" id="one"><p>1</p></div>
+                    <div><p class="step">STEP 1</p><p class="detail">YOUR INFO</p></div>
+                </li>
+                <li class="list">
+                    <div class="num"><p>2</p></div>
+                    <div><p class="step">STEP 2</p><p class="detail">SELECT PLAN</p></div>
+                </li>
+                <li class="list">
+                    <div class="num"><p>3</p></div>
+                    <div><p class="step">STEP 3</p><p class="detail">ADD-ONS</p></div>
+                </li>
+                <li class="list">
+                    <div class="num"><p>4</p></div>
+                    <div><p class="step">STEP 4</p><p class="detail">SUMMARY</p></div>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div id="right">
+        <p id="top">Personal info</p>
+        <p id="suji">Please provide your name,email address,and phone number.</p>
+        <form action="info" style="padding-top:30px ;">
+          <label for="name" class="head">Name</label><br><br>
+          <input type="text" id="name" name="name" placeholder="e.g. Sujith Kumar" ><br><br><br>
+          <label for="email" class="head">Email Address</label><br><br>
+          <input type="email" id="email"  placeholder="e.g. sujithkumar@lorem.com"><br><br><br>
+          <label for="phn" class="head">Phone Number</label><br><br>
+          <input type="tel" id="phn"  placeholder="e.g. +1 234 567 890"><br><br>
+        </form>
+        <button>Next Step</button>
+      </div>
+    </div>
+  </body>
+</html>

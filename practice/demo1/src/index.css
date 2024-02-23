@@ -1,0 +1,13 @@
+.container{
+    /* display: flex; */
+}
+.sec{
+    border: 2px solid;
+    margin: 10px;
+}
+.shit{
+    display: flex;
+}
+.space{
+    margin-right: 10px;
+}

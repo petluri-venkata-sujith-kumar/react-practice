@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #efefef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content{
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    background-color: royalblue;
+    color: #fff;
+    border: 1px solid royalblue;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* margin: 10px; */
+}
+h1{
+    text-align: center;
+}
+#modal-container{
+    /* position: absolute; */
+    top: 0px;
+    width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 10px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+.modal-header{
+    padding: 20px;
+    border-bottom: 1px solid #efefef;
+}
+.modal-content{
+    padding: 20px;
+    border-bottom: 1px solid #efefef;
+    height: 300px;
+}
+.modal-footer{
+    padding: 20px;
+    border-bottom: 1px solid #efefef;
+    height: 100px;
+}
+form{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+label{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+.form-group{
+    padding: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}

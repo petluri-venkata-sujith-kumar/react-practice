@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,'Times New Roman', Times, serif;
+  color: black;
+}
+#courseBlock {
+  background-color:  #4F6F52;
+}
+.head{
+  border-bottom: 2px solid rgb(122, 122, 122);
+  padding-bottom: 5px;
+}
+#courseBlock article {
+  background-color: #4F6F52;
+  height: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  width: 90%;
+}
+
+#courseBlock article main {
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container .list {
+  flex-basis: 32%;
+  background-color: #fbf9f1;
+  padding: 20px;
+  /* border: 1px solid; */
+  height: 550px;
+  border-radius: 15px;
+
+}
+
+#courseBlock header h1{
+    font-weight: bold;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+div{
+  border-bottom: 2px solid rgb(122, 122, 122);
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+h2{
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.heading{
+  font-weight: bold;
+}
+.tech{
+  border: none ;
+  margin-right: 10px;
+  font-size: 13.5px;
+  background-color: #86A789;
+  border-radius: 3px;
+  /* padding-bottom: 2px; */
+  padding: 3px;
+  /* color: #fff; */
+  /* margin-bottom: 5px; */
+  /* display: flex; */
+  /* width: 80px; */
+}
+button{
+  width: 150px;
+  height: 30px;
+  margin-left: 115px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #D2E3C8;
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name":"sujith",
+        "image_src":"https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
+        "phno":9553875791,
+        "skills":["java","HTML","CSS","Reactjs","javascript"]
+    },
+    {
+        "name":"imran",
+        "image_src":"https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
+        "phno":9553875791,
+        "skills":["java","HTML","CSS","javascript"]
+    },
+    {
+        "name":"dhanush",
+        "image_src":"https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
+        "phno":9553875791,
+        "skills":["java","HTML"]
+    }
+]
